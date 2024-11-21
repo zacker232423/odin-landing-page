@@ -1,0 +1,31 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    font-size:18px;
+    font-family: roboto;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: white;
+    font-family: roboto;
+}
+
+#info{  font-family: roboto;}
+
+#qoute{background-color:#E5E7EB;
+    font-family: roboto;}
+
+footer{ background-color: #1f2937;
+color:#E5E7EB ;
+flex-direction: row;
+align-content:center;
+height: 75px;
+font-family: roboto;}

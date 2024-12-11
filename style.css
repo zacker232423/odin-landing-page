@@ -1,31 +1,59 @@
-nav{
+/* Global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Roboto, sans-serif; 
+}
+
+/* Header and related elements */
+header {
+    background-color: #1F2937;
+    height: 60px;
     display: flex;
-    flex-direction: row;
+    align-items: center; 
     justify-content: space-between;
-    height: 90px;
-    width: 100%;
-    background-color: #1f2937;
-    color: #E5E7EB;
-    font-size:18px;
-    font-family: roboto;
+    padding: 0 20px; 
+    align-items: center;
 }
 
-#about{
+
+header .logo {
+    font-size: x-large;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+/* Navigation List Styling */
+nav ul {
+    list-style-type: none; 
     display: flex;
-    flex-direction: column;
-    background-color: #1f2937;
-    color: white;
-    font-family: roboto;
+    gap: 15px;
+    align-items: center;
 }
 
-#info{  font-family: roboto;}
+a{
+    text-decoration: none;
+color: #F9FAF8;
+}
 
-#qoute{background-color:#E5E7EB;
-    font-family: roboto;}
+a:hover{ color: black;
+}
+/*styling the hero */
 
-footer{ background-color: #1f2937;
-color:#E5E7EB ;
-flex-direction: row;
-align-content:center;
-height: 75px;
-font-family: roboto;}
+#about{background-color: #1F2937;
+    display: flex;
+    justify-content:space-evenly;
+    color:#F9FAF8;
+    
+
+
+
+}
+#about .container{ max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+img{ max-width: 200px;
+max-height: 200px;}
